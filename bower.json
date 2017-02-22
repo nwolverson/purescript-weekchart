@@ -1,0 +1,23 @@
+{
+  "name": "purescript-weekchart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^2.4.0",
+    "purescript-console": "^2.0.0",
+    "purescript-strava": "git@github.com:nwolverson/purescript-strava.git",
+    "purescript-node-fs-aff": "^3.0.0",
+    "purescript-halogen": "^0.12.0",
+    "purescript-halogen-css": "^4.0.0",
+    "purescript-affjax": "^3.0.2",
+    "purescript-formatters": "^0.1.0",
+    "purescript-node-process": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^2.0.0"
+  }
+}
