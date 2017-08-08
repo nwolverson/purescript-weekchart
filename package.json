@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "weekchart": "bin/cli.js"
+  },
   "directories": {
     "test": "test"
   },

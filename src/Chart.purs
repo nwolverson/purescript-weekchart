@@ -37,11 +37,11 @@ renderDays input =
           CSS.display CSS.inlineBlock
     ] <>
     map (\n -> H.div [
-      P.class_ (H.className "bar"),
+      P.class_ (H.ClassName "bar"),
       style do
         CSS.width (CSS.px 8.0)
         CSS.height (CSS.px $ ysc n)
-      ] []) input <>
+      ] [ H.text "" ]) input <>
     [ H.span [
         style do
           CSS.color (CSS.rgb 120 120 120)

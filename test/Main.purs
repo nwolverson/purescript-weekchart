@@ -1,4 +1,4 @@
-module Test.Main.FksajfdåπA where
+module Test.Main where
 
 import Prelude
 import Control.Monad.Eff (Eff)
